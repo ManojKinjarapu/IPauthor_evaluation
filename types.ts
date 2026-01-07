@@ -15,14 +15,11 @@ export interface AuditResult {
       summary: string;
       source_type: 'Dependent Claim' | 'Specification' | 'Argument Only' | 'New Matter';
       source_details: string;
-      technical_delta: string; // The exact phrasing added/changed
-      evidence_link: string; // Link to specific spec paragraph found by agent
     };
     strategy_evaluation: {
       best_matching_strategy_name: string;
       prediction_accuracy: 'Exact Match' | 'Concept Match' | 'Partial Match' | 'Miss';
       match_analysis: string;
-      retrieval_success_rate: number; // 0-100 score for how well it found the spec info
     };
     final_score: number;
     auditor_reasoning: string;
