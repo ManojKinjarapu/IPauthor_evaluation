@@ -1,0 +1,5 @@
+{
+  "name": "IPauthor Patent Strategy Auditor",
+  "description": "An advanced evaluation tool for patent attorneys to audit AI-generated strategies against granted claims using Gemini 3 Pro.",
+  "requestFramePermissions": []
+}
